@@ -1,4 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', 'Ubuntu', sans-serif;
+  background-color: #DDDDDD;
+}
+
+header {
+  background-color:black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+header h1 {
+  color: #DDDDDD;
+}
+
+header h1 span {
+  color: yellow;
+}
+
+header p {
+  color: #DDDDDD;
+}
+
+/* form */
+form {
+  background-color: rgb(34, 34, 34);
+  color: #DDDDDD;
+  margin: 0 auto;
+  width: 60%;
+  padding: 1em;
+  border-radius: 1em;
+  margin-top: 20px;
+  align-items: center;
+}
+form #survey-form {}
+/* lable titles and services */
+label {}
+}
+form label input {
+  
+}
+form #services-label {}
+form select {}
+form option {}
+form label input {}
+form button {
+  background-color: #504747;
+  color: #DDDDDD;
 }
